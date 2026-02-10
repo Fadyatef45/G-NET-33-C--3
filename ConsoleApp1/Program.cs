@@ -95,6 +95,14 @@
 
             #endregion
 
+            #region question9
+
+            string? name = null;
+            Console.WriteLine(name?.Length); // null
+
+
+            #endregion
+
         }
     }
 }
