@@ -18,13 +18,19 @@
 
             #region question2
 
-          ///  int n = 5;
-          ///  double d2 = n / 2.0;
-          ///  Console.WriteLine(d2);
-
-           
+            ///  int n = 5;
+            ///  double d2 = n / 2.0;
+            ///  Console.WriteLine(d2);
 
 
+
+
+
+            #endregion
+
+            #region question3
+
+            int age = int.Parse(Console.ReadLine());
 
             #endregion
 
