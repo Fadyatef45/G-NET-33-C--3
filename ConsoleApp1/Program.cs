@@ -47,12 +47,21 @@
 
             #region question5
 
-          ///  string s = "12a";
+            ///  string s = "12a";
 
-          ///  if (int.TryParse(s, out int x))
-          ///      Console.WriteLine(x);
-          ///  else
-          ///      Console.WriteLine("Invalid");
+            ///  if (int.TryParse(s, out int x))
+            ///      Console.WriteLine(x);
+            ///  else
+            ///      Console.WriteLine("Invalid");
+
+            #endregion
+
+            #region question6
+
+            /// object o = 10;
+           ///  int a = (int)o;
+           /// Console.WriteLine(a + 1); //11
+            /// boxing 
 
             #endregion
 
