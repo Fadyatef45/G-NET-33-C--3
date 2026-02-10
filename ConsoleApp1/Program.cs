@@ -107,10 +107,23 @@
 
             string? name2 = null;
             int length = name2?.Length ?? 0; //0
-            //null ==> 0
+                                             //null ==> 0
 
             #endregion
 
+            #region question11
+
+            string? s = null;
+            int x = int.Parse(s ?? "0");
+            Console.WriteLine(x);
+
+
+            if (int.TryParse(s, out int x))
+                Console.WriteLine(x);
+            else
+                Console.WriteLine(0);
+
+            #endregion
         }
     }
 }
