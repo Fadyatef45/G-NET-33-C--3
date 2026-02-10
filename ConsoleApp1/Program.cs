@@ -76,6 +76,25 @@
 
             #endregion
 
+            #region question8
+
+            /// object o = 10;
+            /// long x = o;
+            /// Console.WriteLine(x);
+
+            object o = 10;
+
+            if (o is long l)
+                Console.WriteLine(l);
+            else if (o is int i)
+                Console.WriteLine(i);
+            else
+                Console.WriteLine(-1);
+
+
+
+            #endregion
+
         }
     }
 }
