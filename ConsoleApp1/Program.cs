@@ -59,9 +59,20 @@
             #region question6
 
             /// object o = 10;
-           ///  int a = (int)o;
-           /// Console.WriteLine(a + 1); //11
+            ///  int a = (int)o;
+            /// Console.WriteLine(a + 1); //11
             /// boxing 
+
+            #endregion
+
+            #region question7
+
+            ///  object o = 10;
+            ///  long x = (long)o;
+            ///  Console.WriteLine(x);
+            ///  answer
+            ///  long x = (int)o;
+
 
             #endregion
 
