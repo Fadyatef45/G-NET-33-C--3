@@ -103,6 +103,14 @@
 
             #endregion
 
+            #region question10
+
+            string? name2 = null;
+            int length = name2?.Length ?? 0; //0
+            //null ==> 0
+
+            #endregion
+
         }
     }
 }
