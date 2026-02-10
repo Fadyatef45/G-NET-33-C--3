@@ -5,6 +5,125 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            #region question1
+
+            ///  double d = 9.99;
+            ///  int x = (int)d;
+            ///  Console.WriteLine(x); // 9
+
+            //Explicit Casting 
+
+            #endregion
+
+            #region question2
+
+            ///  int n = 5;
+            ///  double d2 = n / 2.0;
+            ///  Console.WriteLine(d2);
+
+
+
+
+
+            #endregion
+
+            #region question3
+
+            int age = int.Parse(Console.ReadLine());
+
+            #endregion
+
+            #region question4
+
+            ///  string s = "12a";
+            ///  int x = int.Parse(s);
+            ///  Console.WriteLine(x);
+
+            /// FormatException
+
+            #endregion
+
+
+            #region question5
+
+            ///  string s = "12a";
+
+            ///  if (int.TryParse(s, out int x))
+            ///      Console.WriteLine(x);
+            ///  else
+            ///      Console.WriteLine("Invalid");
+
+            #endregion
+
+            #region question6
+
+            /// object o = 10;
+            ///  int a = (int)o;
+            /// Console.WriteLine(a + 1); //11
+            /// boxing 
+
+            #endregion
+
+            #region question7
+
+            ///  object o = 10;
+            ///  long x = (long)o;
+            ///  Console.WriteLine(x);
+            ///  answer
+            ///  long x = (int)o;
+
+
+            #endregion
+
+            #region question8
+
+            /// object o = 10;
+            /// long x = o;
+            /// Console.WriteLine(x);
+
+            object o = 10;
+
+            if (o is long l)
+                Console.WriteLine(l);
+            else if (o is int i)
+                Console.WriteLine(i);
+            else
+                Console.WriteLine(-1);
+
+
+
+            #endregion
+
+            #region question9
+
+            string? name = null;
+            Console.WriteLine(name?.Length); // null
+
+
+            #endregion
+
+            #region question10
+
+            string? name2 = null;
+            int length = name2?.Length ?? 0; //0
+                                             //null ==> 0
+
+            #endregion
+
+            #region question11
+
+            string? s = null;
+            int x = int.Parse(s ?? "0");
+            Console.WriteLine(x);
+
+
+            if (int.TryParse(s, out int x))
+                Console.WriteLine(x);
+            else
+                Console.WriteLine(0);
+
+            #endregion
         }
     }
 }
