@@ -34,6 +34,17 @@
 
             #endregion
 
+            #region question4
+
+            ///  string s = "12a";
+            ///  int x = int.Parse(s);
+            ///  Console.WriteLine(x);
+
+            /// FormatException
+
+            #endregion
+
+
         }
     }
 }
