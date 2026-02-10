@@ -45,6 +45,17 @@
             #endregion
 
 
+            #region question5
+
+          ///  string s = "12a";
+
+          ///  if (int.TryParse(s, out int x))
+          ///      Console.WriteLine(x);
+          ///  else
+          ///      Console.WriteLine("Invalid");
+
+            #endregion
+
         }
     }
 }
