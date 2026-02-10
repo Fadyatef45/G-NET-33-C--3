@@ -8,15 +8,25 @@
 
             #region question1
 
-          ///  double d = 9.99;
-          ///  int x = (int)d;
-          ///  Console.WriteLine(x); // 9
+            ///  double d = 9.99;
+            ///  int x = (int)d;
+            ///  Console.WriteLine(x); // 9
 
-            //Explicit Casting
+            //Explicit Casting 
 
             #endregion
 
+            #region question2
+
+          ///  int n = 5;
+          ///  double d2 = n / 2.0;
+          ///  Console.WriteLine(d2);
+
            
+
+
+
+            #endregion
 
         }
     }
